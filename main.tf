@@ -1,17 +1,3 @@
-terraform {
-  required_version = ">= 1.0"
-  required_providers {
-    digitalocean = {
-      source  = "digitalocean/digitalocean"
-      version = ">= 2.50"
-    }
-    kubernetes = {
-      source  = "hashicorp/kubernetes"
-      version = ">= 2.0"
-    }
-  }
-}
-
 resource "digitalocean_droplet" "igw" {
   count      = var.igw_count
   name       = "${var.name_prefix}-${var.region}-igw-${count.index}"
