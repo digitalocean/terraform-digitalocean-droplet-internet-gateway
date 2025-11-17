@@ -23,3 +23,8 @@ module "igw" {
   doks_cluster_name = "nyc3-prod1"
 }
 ```
+
+# Support
+
+This Terraform module is provided as a reference implementation and must be fully tested in your own environment before using it in production. The Terraform Provider and its resources are supported, but this module itself is not officially supported.
+
