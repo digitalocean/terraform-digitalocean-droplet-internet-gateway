@@ -1,3 +1,14 @@
+> [!WARNING]
+> ## This repository is deprecated
+>
+> This module has been consolidated into the [scale-with-simplicity](https://github.com/digitalocean/scale-with-simplicity) repository.
+>
+> **New location:** [reference-architectures/nat-gateway](https://github.com/digitalocean/scale-with-simplicity/tree/main/reference-architectures/nat-gateway)
+>
+> This repository will be archived. Please update your module references to use the new location.
+
+---
+
 # terraform-do-droplet-internet-gateway
 
 This module creates one or more droplets and configures them as [Internet gateways (IGW)](https://docs.digitalocean.com/products/networking/vpc/how-to/configure-droplet-as-gateway/). The module will optionally configure a DOKS cluster that has the Routing Agent installed to use the IGWs as the cluster's default route.
